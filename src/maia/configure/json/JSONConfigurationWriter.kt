@@ -1,13 +1,13 @@
-package māia.configure.json
+package maia.configure.json
 
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
-import māia.configure.Configuration
-import māia.configure.ConfigurationElement
-import māia.configure.visitation.ConfigurationVisitor
-import māia.util.kotlinClass
+import maia.configure.Configuration
+import maia.configure.ConfigurationElement
+import maia.configure.visitation.ConfigurationVisitor
+import maia.util.kotlinClass
 import java.util.*
 import kotlin.reflect.KClass
 

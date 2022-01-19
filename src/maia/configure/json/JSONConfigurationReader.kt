@@ -1,4 +1,4 @@
-package māia.configure.json
+package maia.configure.json
 
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
@@ -9,13 +9,13 @@ import kotlinx.serialization.json.float
 import kotlinx.serialization.json.int
 import kotlinx.serialization.json.jsonPrimitive
 import kotlinx.serialization.json.long
-import māia.configure.Configuration
-import māia.configure.metadata
-import māia.configure.visitation.ConfigurationVisitable
-import māia.util.asIterable
-import māia.util.classForName
-import māia.util.filter
-import māia.util.map
+import maia.configure.Configuration
+import maia.configure.metadata
+import maia.configure.visitation.ConfigurationVisitable
+import maia.util.asIterable
+import maia.util.classForName
+import maia.util.filter
+import maia.util.map
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty
 import kotlin.reflect.full.memberProperties
